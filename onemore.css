@@ -1,0 +1,98 @@
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	overflow-x: hidden;
+}
+
+main {
+	padding: 2% 5% 0%;
+}
+
+
+h1.head {
+	font-size: 6em;
+}
+
+.base {
+	border-radius: 15px;
+	padding: 30px 30px 10px;
+	background-color: #eee;
+	text-align: center;
+}
+
+.cover_image {
+	border-radius: 15px;
+	padding: 10px;
+	margin: 1px;
+	
+	text-align: center;
+}
+
+.cover_image .cover {
+	border-radius: 15px;
+	width: 100%;
+	height: auto;
+}
+
+.content {
+	border-radius: 15px;
+	text-align: center;
+	
+	padding: 15px;
+	font-size: 18px;
+}
+
+.content ul {
+	padding: 0 20vw;
+	text-align: left;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.content ul li {
+	font-weight: 100;
+}
+
+.content ul li strong:after {
+	content: " - ";
+	font-weight: 100;
+	color: #444;
+}
+
+.quotes {
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Footer code */
+footer {
+	width: 100%;
+}
+
+.copyright {
+	background: #116677;
+}
+	
+.copyright p.ft-devlp {	
+	text-align: center;
+    color:aliceblue;
+    font-size: 1em;
+	margin: 7px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
